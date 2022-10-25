@@ -1,0 +1,49 @@
+body {
+    font-family: "Popins", sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.menu {
+    width: 300px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    list-style: none;
+    transform: translateX(100%);
+    transition: transform 0.25s linear;
+}
+
+.menu.is-show {
+    transform: translateX(0);
+}
+
+.menu-link {
+    display: block;
+    padding: 20px 15px;
+    color: #333333;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+}
+
+.boxed {
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid;
+}
+
+.button {
+    padding: 20px;
+    color: white;
+    background-color: #ffa400;
+    border: 0;
+    margin: 50px 50px;
+    cursor: pointer;
+    width: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
